@@ -1,0 +1,297 @@
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+header{
+  background-color: #333;
+  color: #fff;
+  padding: 1.5vw;
+}
+  
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.logo{
+  display: flex;
+  align-items: center;
+}
+  
+.logo img {
+  height: 10vh;
+  width: 6vw;
+  margin-right: 4.5vw;
+}
+  
+nav ul {
+  display: flex;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  align-items: center;
+}
+  
+nav ul li {
+  margin-right: 2vw;
+}
+  
+nav ul li a {
+  color: #fff;
+  font-size: 3vh;
+}
+
+.socials {
+  display: flex;
+  align-items: center;
+}
+
+.social-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 36px;
+  height: 36px;
+  background-color: #777;
+  border-radius: 50%;
+  margin-left: 0.5vw;
+  transition: background-color 0.3s;
+}
+
+.social-icon:hover {
+  background-color: #fff;
+}
+
+.social-icon img {
+  width: 20px;
+  height: 20px;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 2vw;
+}
+  
+.footer-content {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 12%;
+  margin-left: 20%;
+}
+
+.footer-section{
+  width: 100%;
+}
+  
+.footer-section h3 {
+  margin-bottom: 1.5vh;
+}
+  
+.footer-section ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+  
+.footer-section ul li {
+  margin-bottom: 1vh;
+}
+  
+.footer-bottom {
+  text-align: center;
+  margin-top: 2vh;
+}
+
+
+.header_tour {
+  background-color: #F1FBEF;
+  padding: 10vh;
+  display: flex;
+  align-items: center;
+  margin: auto;
+
+}
+    
+.logo_tour {
+  height: 15vh;
+  width: 9vw;
+  border-radius: 50%;
+}
+    
+.title {
+  margin: auto;
+  font-weight: bold;
+  font-size: 6vh;
+}
+    
+.content {
+  padding: 2vw 0 0 5vw;
+}
+
+.content h2{
+  font-size: 4.5vh;
+}
+    
+.left_part{
+  width: 63vw;
+}
+
+.left_part p{
+  font-size: 2.5vh;
+}
+
+.about, .program, .map {
+  margin-bottom: 2vh;
+}
+
+.program{
+  padding-left: 4vw;
+}
+
+.program img{
+  height: 4vh;
+  width: 2.5vw;
+}
+    
+.photos {
+  display: flex;
+  align-items: center;
+  margin: 4vh 2vw 0 2vw;
+}
+    
+.photo {
+  width: 38vw;
+  height: 48vh;
+  margin: 0 0.7vw;
+  border-radius: 10%;
+}
+
+.time-title {
+  display: flex;
+  align-items: center;
+}
+
+.time {
+  text-align: center;
+  padding: 0.5vw;
+  width: 5vw;
+  background-color: #4CAF50;
+  color: #fff;
+  font-size: 1vh;
+  border-radius: 10px;
+  margin-top: 1vh;
+  margin-bottom: 0.5vh;
+  margin-right: 1vw;
+}
+
+.program h4 {
+  font-size: 3vh;
+  margin: 0;
+}
+
+.description {
+  border: 1px solid #F1FBEF;
+  border-radius: 3vh;
+  background-color: #F1FBEF;
+  padding: 2vh;
+  margin: 1vh 0;
+}
+
+.part-of-program {
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 2vh;
+  margin-bottom: 2vh;
+}
+    
+.location iframe{
+  width: 65vw;
+  height: 48vh;
+}
+
+.booking {
+  position: fixed;
+  width: 23vw;
+  height: 51vh;
+  top: 105vh;
+  right: 2vw;
+  background-color: white;
+  border: 1px solid #ccc;
+  padding: 1vw;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.booking h3{
+  font-size: 4vh;
+  padding: 0;
+  margin: 2vh 0 5vh 0;
+}
+    
+button {
+  padding: 1vh 1.5vw;
+  background-color: #4CAF50;
+  color: #fff;
+  height: 8vh;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+button:hover {
+  background-color: #77DD77;
+}
+
+.booking-form {
+  display: flex;
+  flex-direction: column;
+  margin: 1vw;
+  font-size: 3vh;
+}
+      
+.date-picker,
+.guest-picker,
+.price {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1vh 0 3vh 0;
+}
+
+.guest-picker{
+  padding-left: 3vw;
+  padding-right: 3vw;
+}
+
+input{
+  font-size: 3vh;
+}
+      
+.guest-picker button {
+  border-radius: 100%;
+  height: 5.5vh;
+  margin-left: 0;
+}
+
+.book-button{
+  font-size: 3vh;
+  margin-top: 1vh;
+  border-radius: 3vh;
+}
+      
+.guest-picker input {
+  width: 50px;
+  text-align: center;
+  border: 0px solid #ccc;
+  border-radius: 5px;
+  padding: 0;
+  margin: 0;
+}

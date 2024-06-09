@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Туры</title>
+  <link rel="stylesheet" href="css/style_tours.css">
+</head>
+
+<body>
+  <header>
+    <nav>
+      <div class="logo">
+        <a href="#"><img src="imgs/logo.png" alt=""></a>
+      </div>
+      <ul>
+        <li><a href="tours.html">Туры</a></li>
+        <li><a href="aboutUs.html">О нас</a></li>
+      </ul>
+      <div class="socials">
+        <a href="https://telegram.org" class="social-icon" target="_blank">
+          <img src="imgs/telegram1.png" alt="Icon 1">
+        </a>
+        <a href="https://vk.com" class="social-icon" target="_blank">
+          <img src="imgs/vk1.png" alt="Icon 2">
+        </a>
+        <a href="https://dzen.ru" class="social-icon" target="_blank">
+          <img src="imgs/dezn.png" alt="Icon 3">
+        </a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="filter">
+      <div class="tour-count">
+        <span id="tour-count-number"></span>
+      </div>
+      <div class="filter-divider"></div>
+      <div class="price-filter">
+        <input type="number" id="min-price" name="min-price" min="0" placeholder="Цена от">
+        <input type="number" id="max-price" name="max-price" min="0" placeholder="Цена до">
+      </div>
+      <div class="filter-divider"></div>
+      <div class="sort-filter">
+        <select id="sort" name="sort">
+          <option value="" disabled selected hidden>Сортировать</option>
+          <option value="default">По умолчанию</option>
+          <option value="asc">По возрастанию цены</option>
+          <option value="desc">По убыванию цены</option>
+        </select>
+      </div>
+    </section>
+
+    <div id="tour-container" onclick="window.location.href='Tour.html'"></div>
+    
+    <script src="scripts/script-tours.js"></script>
+
+  </main>
+
+  <footer>
+    <div class="footer-content">
+      <div class="footer-section">
+        <h3>Связаться с нами</h3>
+        <ul>
+          <li>green_tourism@gt.ru</li>
+          <li>+7 977 777 77 77</li>
+        </ul>
+
+        <h3>Социальные сети</h3>
+        <div class="socials">
+          <a href="https://telegram.org" class="social-icon" target="_blank">
+            <img src="imgs/telegram1.png" alt="Icon 1">
+          </a>
+          <a href="https://vk.com" class="social-icon" target="_blank">
+            <img src="imgs/vk1.png" alt="Icon 2">
+          </a>
+          <a href="https://dzen.ru" class="social-icon" target="_blank">
+            <img src="imgs/dezn.png" alt="Icon 3">
+          </a>
+        </div>
+      </div>
+      <div class="footer-section">
+        <h3>Полезное</h3>
+        <ul>
+          <li><a href="aboutUs.html">О нас</a></li>
+          <li><a href="tours.html">Туры</a></li>
+          <li><a href="mailto:green_tourism@gt.ru">Фермам</a></li>
+          <li><a href="mailto:green_tourism@gt.ru">Фермерам</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2024 Курсовая работа. Все права защищены.</p>
+    </div>
+  </footer>
+
+</body>
+</html>

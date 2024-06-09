@@ -1,0 +1,182 @@
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+header{
+  background-color: #333;
+  color: #fff;
+  padding: 1.5vw;
+}
+  
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.logo{
+  display: flex;
+  align-items: center;
+}
+  
+.logo img {
+  height: 10vh;
+  width: 6vw;
+  margin-right: 4.5vw;
+}
+  
+nav ul {
+  display: flex;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  align-items: center;
+}
+  
+nav ul li {
+  margin-right: 2vw;
+}
+  
+nav ul li a {
+  color: #fff;
+  font-size: 3vh;
+}
+
+.socials {
+  display: flex;
+  align-items: center;
+}
+
+.social-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 36px;
+  height: 36px;
+  background-color: #777;
+  border-radius: 50%;
+  margin-left: 0.5vw;
+  transition: background-color 0.3s;
+}
+
+.social-icon:hover {
+  background-color: #fff;
+}
+
+.social-icon img {
+  width: 20px;
+  height: 20px;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 2vw;
+}
+  
+.footer-content {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 12%;
+  margin-left: 20%;
+}
+
+.footer-section{
+  width: 100%;
+}
+  
+.footer-section h3 {
+  margin-bottom: 1.5vh;
+}
+  
+.footer-section ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+  
+.footer-section ul li {
+  margin-bottom: 1vh;
+}
+  
+.footer-bottom {
+  text-align: center;
+  margin-top: 2vh;
+}
+
+
+/* Основной контент */
+.about-us {
+    max-width: 65vw;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.about-us h1 {
+    font-size: 48px;
+    margin-bottom: 2rem;
+}
+
+.about-us p {
+    font-size: 25px;
+    margin-bottom: 1.5rem;
+    text-align: justify;
+    background-color: #F1FBEF;
+    padding: 2vh 2vw 2vh 2vw; 
+    border-radius: 2vh;
+}
+
+.colortext{
+  color: #4CAF50;
+}
+
+.location{
+    text-align: center;
+    padding: 5%;
+}
+.location iframe{
+  width: 65vw;
+}
+
+.logo-comp{
+    height: 40%;
+    width: 40%;
+}
+
+.why-choose-us {
+    background-color: #f4f4f4;
+    padding: 3rem;
+  }
+  
+  .why-choose-us h2 {
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+  
+  .reasons {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 2rem;
+    margin-right: 15%;
+    margin-left: 15%;
+  }
+  
+  .reason {
+    text-align: center;
+    background-color: #fff;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    padding: 20px;
+  }
+  .icon {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 2%;
+    }
